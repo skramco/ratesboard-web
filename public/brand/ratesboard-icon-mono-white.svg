@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" fill="none" role="img" aria-label="Ratesboard">
-  <path fill="#FFFFFF" fill-rule="evenodd" d="M165,0 L835,0 A165,165 0 0 1 1000,165 L1000,835 A165,165 0 0 1 835,1000 L165,1000 A165,165 0 0 1 0,835 L0,165 A165,165 0 0 1 165,0 Z M500,210 L860.5,770 L699.5,770 L500,460.097 L300.5,770 L139.5,770 Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" fill="none" overflow="hidden" role="img" aria-label="Ratesboard icon mono white">
+  <path fill="#FFFFFF" fill-rule="evenodd" d="M165,0 L835,0 A165,165 0 0 1 1000,165 L1000,835 A165,165 0 0 1 835,1000 L165,1000 A165,165 0 0 1 0,835 L0,165 A165,165 0 0 1 165,0 Z M500,210 L860.5,770 L699.5,770 L500,460.097 L372.733,657.794 L505.179,560 L300.5,770 L139.5,770 Z M182.719,770 L438.798,555.168 L372.733,657.794 L220.767,770 Z"/>
 </svg>

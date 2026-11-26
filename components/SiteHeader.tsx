@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -17,12 +16,14 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="container site-header__inner">
         <Link href="/" aria-label="Ratesboard home">
-          <Image
-            src="/brand/ratesboard-lockup-color.svg"
+          {/* eslint-disable-next-line @next/next/no-img-element -- kit SVG; must not rasterize or resize off-ratio */}
+          <img
+            src="/brand/ratesboard-wordmark-color.svg"
             alt="Ratesboard"
-            width={168}
-            height={36}
-            priority
+            height={40}
+            style={{ width: "auto", height: 40, display: "block" }}
+            fetchPriority="high"
+            decoding="async"
           />
         </Link>
 
