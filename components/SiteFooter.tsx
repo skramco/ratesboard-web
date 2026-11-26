@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { KNOWE_URL } from "@/lib/constants";
 
@@ -9,11 +8,13 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="container site-footer__inner">
         <Link href="/" aria-label="Ratesboard home">
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element -- kit SVG; must not rasterize or resize off-ratio */}
+          <img
             src="/brand/ratesboard-wordmark-color.svg"
             alt="Ratesboard"
-            width={140}
             height={28}
+            style={{ width: "auto", height: 28, display: "block" }}
+            decoding="async"
           />
         </Link>
 
