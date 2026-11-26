@@ -20,9 +20,20 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/brand/favicon.ico" },
+      { url: "/brand/ratesboard-icon-color.png", type: "image/png", sizes: "512x512" },
       { url: "/brand/ratesboard-icon-color.svg", type: "image/svg+xml" },
     ],
-    apple: "/brand/ratesboard-icon-color.svg",
+    apple: [
+      { url: "/brand/ratesboard-icon-color-180.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
+  openGraph: {
+    images: [
+      {
+        url: "/brand/ratesboard-lockup-color.png",
+        alt: "Ratesboard",
+      },
+    ],
   },
 };
 
